@@ -1,0 +1,43 @@
+.input-field {
+  /* border: 2px solid black; */
+  height: 120px;
+  width: 50%;
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  background-color: gainsboro;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  /* border: 2px solid black; */
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0;
+  background-color: aqua;
+}
+
+.task-container {
+  /* border: 2px solid blue; */
+  width: 100%;
+}
+
+input {
+  height: 1.5rem;
+  border-radius: 0.5rem;
+  padding: 5px;
+}
+input:focus {
+  outline: none !important;
+  border: 1px solid purple;
+  box-shadow: 0 0 10px purple;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #ccc;
+  text-shadow: none;
+  -webkit-text-fill-color: initial;
+}

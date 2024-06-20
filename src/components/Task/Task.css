@@ -1,0 +1,39 @@
+input[type="checkbox"] {
+  transform: scale(1.5);
+}
+
+input {
+  height: 1.5rem;
+  border-radius: 0.5rem;
+  /* padding: 5px; */
+  /* transform: scale(1.5); */
+}
+input:focus {
+  outline: none !important;
+  border: 1px solid purple;
+  box-shadow: 0 0 10px purple;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #ccc;
+  text-shadow: none;
+  -webkit-text-fill-color: initial;
+}
+
+.task {
+  display: flex;
+  border: 2px solid yellow;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.title {
+  color: white;
+  font-size: large;
+}
